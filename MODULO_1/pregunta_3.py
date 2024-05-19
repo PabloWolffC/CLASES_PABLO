@@ -10,7 +10,14 @@ Hint: investigar la tabla ASCII y como se implementa en python
 
 #Recordar que
 
-caracter_1 = 'h'
-caracter_2 = '0'
+a = 0
+frase = ''
+while a < 10:
+    
+    numero = int(input('ingrese un numero: '))
+    letra = chr(numero)
+    frase += letra
+    a += 1
+    print(frase)
 
-print(caracter_1+caracter_2)
+print(frase)
